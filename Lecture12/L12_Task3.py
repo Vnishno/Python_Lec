@@ -22,11 +22,8 @@ def require_role(allowed_role="admin"):
 def delete_database(user_role):
     return "Database deleted successfully!"
 
-
-print("--- ტესტი 1 (როლი ემთხვევა) ---")
 res1 = delete_database(user_role="admin")
 print(res1)
 
-print("\n--- ტესტი 2 (როლი არ ემთხვევა) ---")
 res2 = delete_database(user_role="user")
 print(res2)
