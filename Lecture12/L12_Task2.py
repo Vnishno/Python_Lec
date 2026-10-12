@@ -21,7 +21,7 @@ def log_execution(func):
 @log_execution
 def example_function(n):
     """This is a example_function."""
-    time.sleep(1)
+    time.sleep(1) 
     return n * 2
 
 

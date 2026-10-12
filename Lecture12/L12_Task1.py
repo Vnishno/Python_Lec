@@ -9,7 +9,8 @@ def make_counter(start_value=0):
     return inner
 
 
-counter = make_counter(start_value=16)
+counter = make_counter(start_value=16) 
+
 print(counter())
 print(counter())
 print(counter())

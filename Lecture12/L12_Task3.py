@@ -17,8 +17,7 @@ def require_role(allowed_role="admin"):
 
     return decorator
 
-
-@require_role(allowed_role="admin")
+@require_role(allowed_role="admin") 
 def delete_database(user_role):
     return "Database deleted successfully!"
 
